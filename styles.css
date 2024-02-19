@@ -3,36 +3,38 @@ body {
 }
 
 .site-header {
-    display: flex; /* Застосування Flexbox */
-    align-items: center; /* Вирівнювання елементів по центру по вертикалі */
-    justify-content: space-between; /* Розподіл вільного простору між елементами */
-    padding: 0 20px; /* Додавання відступів з обох сторін */
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 0 20px; 
+    width: 1440px;
+    height: 72px;
 }
 
 .site-header a.logo {
-    font-weight: bold; /* Жирний текст для лого */
-    font-size: 24px; /* Збільшення розміру шрифту для лого */
-    text-decoration: none; /* Видалення підкреслення */
-    color: #000; /* Колір тексту */
+    font-weight: bold; 
+    font-size: 24px; 
+    text-decoration: none; 
+    color: #000; 
 }
 
 .site-header nav ul,
 .site-header address ul {
-    display: flex; /* Застосування Flexbox до списків */
-    list-style: none; /* Видалення маркерів списку */
-    padding: 0; /* Видалення відступів у списків */
-    margin: 0; /* Видалення зовнішніх відступів у списків */
+    display: flex; 
+    list-style: none;
+    padding: 0; 
+    margin: 0;
 }
 
 .site-header nav ul li,
 .site-header address ul li {
-    margin: 0 10px; /* Додавання горизонтальних відступів між пунктами */
+    margin: 0 10px;
 }
 
 .site-header a {
-    text-decoration: none; /* Видалення підкреслення у посилань */
-    color: #000; /* Колір тексту посилань */
-    font-size: 16px; /* Розмір шрифту посилань */
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
 }
 
 
