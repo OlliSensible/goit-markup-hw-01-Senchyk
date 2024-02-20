@@ -5,15 +5,13 @@ body {
 .site-header {
     display: flex;
     align-items: center; 
-    justify-content: space-between; 
-    padding: 0 20px; 
     width: 1440px;
     height: 72px;
 }
 
 .site-header a.logo {
     font-weight: bold; 
-    font-size: 24px; 
+    font-size: 18px; 
     text-decoration: none; 
     color: #000; 
 }
@@ -34,9 +32,12 @@ body {
 .site-header a {
     text-decoration: none;
     color: #000;
-    font-size: 16px;
 }
 
+.site-header :hover {
+    color: #404BBF;
+
+}
 
 .hero-container{
     width: 1440px;
@@ -44,12 +45,45 @@ body {
     background-color: #2E2F42;
 }
 
+.btn {
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    width: 169px;
+    height: 56px;
+    font-size: 16px;
+    letter-spacing: 4%; 
+    line-height: 24px;
+    font-weight: 500px;
+}
+
+.btn:hover {
+    background-color: #404BBF;
+}
+
+.adress {
+    font-weight: 400px;
+    letter-spacing: 2%;
+    size: 16px;
+    font-style: normal; 
+}
+
+.pages {
+    font-weight: 500;
+    font-size: 16px;
+    font-weight: bold; 
+    line-height: 24px;
+    letter-spacing: 2%; 
+    line-height: 24px;
+}
+
 h1 {
     color: #FFFFFF;
-    font-weight: bold; 
+    font-weight: 700px; 
     font-size: 56px;
     letter-spacing: 2%; 
     line-height: 60px;
+    width: 496px;
+    height: 120px;
 }
 
 p {
@@ -59,3 +93,6 @@ p {
     letter-spacing: 4%;
 }
 
+.logo-color {
+    color: #4D5AE5;
+}
